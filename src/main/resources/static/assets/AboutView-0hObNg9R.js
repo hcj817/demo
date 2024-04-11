@@ -1,1 +1,0 @@
-import{r as e,c as a,a as i,b as t,t as r,o}from"./index-BCAJFauf.js";const n={class:"about",id:"firstDiv"},c=t("div",null,[t("h1",null,"sssssss")],-1),f={__name:"AboutView",setup(l){return e(""),a({data(){return{text:"firstDiv"}}}).mount("#firstDiv"),(s,_)=>(o(),i("div",n,[t("div",null,[t("h1",null,r(s.text)+"1",1)]),c]))}};export{f as default};

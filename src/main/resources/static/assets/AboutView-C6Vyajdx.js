@@ -1,1 +1,0 @@
-import{r as s,c as a,a as i,b as t,t as r,o}from"./index-DFM5eOiP.js";const n={class:"about",id:"firstDiv"},c=t("div",null,[t("h1",null,"sssssss")],-1),p={__name:"AboutView",setup(l){s("");const e=s("");return a({data(){return{text:"firstDiv"}}}).mount("#firstDiv"),(_,d)=>(o(),i("div",n,[t("div",null,[t("h1",null,r(e.value)+"1",1)]),c]))}};export{p as default};

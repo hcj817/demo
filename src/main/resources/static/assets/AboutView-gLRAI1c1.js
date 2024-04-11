@@ -1,1 +1,0 @@
-import{r as e,c as o,a as r,b as s,t as n,u as c,o as i}from"./index-EIQ_M2rf.js";const l={class:"about"},u={id:"firstDiv"},_=s("div",null,[s("h1",null,"sssssss")],-1),m={__name:"AboutView",setup(h){const t=e("");let a="hahahahaha";return o({data(){return{abc:t.value}}}).mount("#firstDiv"),(d,p)=>(i(),r("div",l,[s("div",u,[s("h1",null,n(c(a))+"1",1)]),_]))}};export{m as default};

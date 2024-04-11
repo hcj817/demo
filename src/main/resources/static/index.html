@@ -1,37 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<script>
-
-
-
-let reqHttp = () =>{
-
-const Http = new XMLHttpRequest();
-
-const url = 'https://jsonplaceholder.typicode.com/posts';
-
-Http.open('GET', url);
-Http.responseType ="json";
-Http.send();
-
-Http.onload = () => {
-
-  let result = Http.response[0];  
-  console.log(Http.status);     // HTTP 상태코드
-  console.log(result.userId);   // 요청에 대한 응답
-};
-
-}
-
-</script>
-<body>
-git connect
-<button onclick="reqHttp()">click</button>
-</body>
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/assets/index-DGlSzWLj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DW57TyAt.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
 </html>
-
